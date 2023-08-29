@@ -6,6 +6,7 @@ keys_client = client.api_keys
 print keys_client.list
 
 # Get a list of all your reserved domains
-
 domains_client = client.reserved_domains
 print domains_client.list
+
+# More information and examples can be found here: https://github.com/ngrok/ngrok-api-ruby
